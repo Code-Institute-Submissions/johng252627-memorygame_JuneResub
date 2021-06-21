@@ -60,3 +60,7 @@ ul {
     padding: 8px;
     border-radius: 10px;
 }
+
+.guess:hover {
+    transform: scale(1.1);
+}
