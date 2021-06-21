@@ -33,3 +33,4 @@ $(document).ready(function(){
         $("#memorise6").text("Result");
     });
 });
+
