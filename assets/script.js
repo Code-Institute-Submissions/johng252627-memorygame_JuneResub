@@ -1,5 +1,5 @@
 $(document).ready(function(){
     $(".puzzle").click(function(){
-        $("p").text("Result");
+        $("#memorise1").text("Result");
     });
 });
