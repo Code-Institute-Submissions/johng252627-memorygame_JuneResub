@@ -14,9 +14,15 @@ body {
 }
 
 .logo {
-    text-decoration: none;
+    text-decoration: none !important;
     color: #fefedf;
     font-size: 40px;
+    transition: .5s;
+    text-shadow: 3px 3px #845ec2;
+}
+
+.logo:hover {
+    color: #4b4453;
 }
 
 .welcome {
