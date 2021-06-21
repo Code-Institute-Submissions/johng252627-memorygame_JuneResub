@@ -28,5 +28,18 @@ ul {
 
 .game {
     margin: 0 auto;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
     text-align: center;
+    border: 1px solid black;
+}
+
+.puzzle {
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid black;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
