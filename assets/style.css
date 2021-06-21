@@ -1,7 +1,13 @@
 .welcome {
+    margin: 0 auto;
     text-align: center;
+    width: 50%;
+    border: 1px solid black;
 }
 
 .how-to-play {
+    margin: 0 auto;
     text-align: center;
+    width: 50%;
+    border: 1px solid black;
 }
