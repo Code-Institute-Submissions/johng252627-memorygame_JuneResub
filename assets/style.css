@@ -5,6 +5,13 @@ body {
 .navbar {
     background-color: #c493ff;
     color: #fefedf;
+    margin-top: 10px;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color: #fefedf;
+    font-size: 30px;
 }
 
 .welcome {
