@@ -2,6 +2,7 @@
 
 body {
     background-color: #fefedf;
+    font-family: 'Kanit', sans-serif;
 }
 
 .navbar {
@@ -15,7 +16,7 @@ body {
 .logo {
     text-decoration: none;
     color: #fefedf;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .welcome {
