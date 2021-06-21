@@ -6,9 +6,10 @@ body {
     background-color: #c493ff;
     color: #fefedf;
     margin-top: 10px;
+    text-align: center;
 }
 
-.navbar-brand {
+.logo {
     text-decoration: none;
     color: #fefedf;
     font-size: 30px;
