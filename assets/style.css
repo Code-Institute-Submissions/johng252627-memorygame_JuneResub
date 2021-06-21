@@ -3,6 +3,10 @@
     text-align: center;
     width: 50%;
     border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: rgba(132, 92, 194, 0.25);
+    color: #4b4455;
 }
 
 .how-to-play {
@@ -10,4 +14,7 @@
     text-align: center;
     width: 50%;
     border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(132, 92, 194, 0.25);
+    color: #4b4455;
 }
