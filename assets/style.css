@@ -1,3 +1,7 @@
+body {
+    background-color: #fefedf;
+}
+
 .welcome {
     margin: 0 auto;
     text-align: center;
@@ -7,8 +11,8 @@
     margin-top: 20px;
     margin-bottom: 30px;
     padding: 8px;
-    background-color: rgba(132, 92, 194, 0.25);
-    color: #4b4455;
+    background-color: #c493ff;
+    color: #fefedf;
 }
 
 .how-to-play {
@@ -18,8 +22,8 @@
     width: 40%;
     border: 3px solid #845ec2;
     border-radius: 20px;
-    background-color: rgba(132, 92, 194, 0.25);
-    color: #4b4455;
+    background-color: #c493ff;
+    color: #fefedf;
 }
 
 ul {
@@ -29,10 +33,11 @@ ul {
 .game {
     margin: 0 auto;
     margin-top: 10px;
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
     text-align: center;
-    border: 1px solid black;
+    border: 3px solid #845ec2;
+    background-color: #fcf8ff;
 }
 
 .puzzle {
