@@ -43,3 +43,13 @@ ul {
     margin-top: 8px;
     margin-bottom: 8px;
 }
+
+.guess {
+    margin: 0 auto;
+    width: 33.333%;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 10px;
+}
