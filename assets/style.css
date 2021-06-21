@@ -25,6 +25,18 @@ body {
     color: #4b4453;
 }
 
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
 .welcome {
     margin: 0 auto;
     text-align: center;
@@ -67,11 +79,12 @@ ul {
 
 .puzzle {
     margin: 0 auto;
-    width: 80%;
+    width: 70%;
     border: 1px solid black;
     padding: 8px;
     margin-top: 8px;
     margin-bottom: 8px;
+    background-color: #c493ff;
 }
 
 .guess {
