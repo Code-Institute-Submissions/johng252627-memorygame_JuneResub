@@ -18,3 +18,7 @@
     background-color: rgba(132, 92, 194, 0.25);
     color: #4b4455;
 }
+
+ul {
+    list-style-position: inside;
+}
