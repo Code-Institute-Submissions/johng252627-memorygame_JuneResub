@@ -44,7 +44,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $("#puzzle6").click(function(){
+    $("#puzzle6").one("click", function(){
         $("#memorise6").text("Result").delay(500).queue(function(next){
             $(this).text("Test");
             next();
