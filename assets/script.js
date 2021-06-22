@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $("#puzzle1").one("click", function(){
-        $("#memorise1").text("Result").delay(3000).queue(function(next){
-            $(this).text("Test");
+        $("#memorise1").text("7263").delay(3000).queue(function(next){
+            $(this).text("Now guess!");
             next();
         });
     });
@@ -9,8 +9,8 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#puzzle2").one("click", function(){
-        $("#memorise2").text("Result").delay(2000).queue(function(next){
-            $(this).text("Test");
+        $("#memorise2").text("27409").delay(2000).queue(function(next){
+            $(this).text("Now guess!");
             next();
         });
     });
@@ -18,8 +18,8 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#puzzle3").one("click", function(){
-        $("#memorise3").text("Result").delay(1000).queue(function(next){
-            $(this).text("Test");
+        $("#memorise3").text("580342").delay(1000).queue(function(next){
+            $(this).text("Now guess!");
             next();
         });
     });
@@ -27,8 +27,8 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#puzzle4").one("click", function(){
-        $("#memorise4").text("Result").delay(500).queue(function(next){
-            $(this).text("Test");
+        $("#memorise4").text("8921674").delay(500).queue(function(next){
+            $(this).text("Now guess!");
             next();
         });
     });
@@ -36,8 +36,8 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#puzzle5").one("click", function(){
-        $("#memorise5").text("Result").delay(500).queue(function(next){
-            $(this).text("Test");
+        $("#memorise5").text("28493671").delay(500).queue(function(next){
+            $(this).text("Now guess!");
             next();
         });
     });
@@ -45,8 +45,8 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#puzzle6").one("click", function(){
-        $("#memorise6").text("Result").delay(500).queue(function(next){
-            $(this).text("Test");
+        $("#memorise6").text("274081682").delay(500).queue(function(next){
+            $(this).text("Now guess!");
             next();
         });
     });
