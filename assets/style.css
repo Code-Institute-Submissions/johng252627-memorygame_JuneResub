@@ -126,3 +126,11 @@ ul {
 .guess:hover {
     transform: scale(1.1);
 }
+
+.final {
+    margin-bottom: 30px;
+}
+
+.play {
+    text-align: center;
+}
