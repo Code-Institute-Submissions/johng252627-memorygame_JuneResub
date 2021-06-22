@@ -156,6 +156,12 @@ ul {
     height: 75px;
     width: 90%;
     margin-bottom: 30px;
-    border-radius: 2px;
+    border-radius: 5px;
     text-align: center;
+    padding: 8px;
+}
+
+.enjoy {
+    font-size: 40px;
+    text-shadow: 3px 3px #845ec2;
 }
