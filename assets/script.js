@@ -8,7 +8,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $("#puzzle2").click(function(){
+    $("#puzzle2").one("click", function(){
         $("#memorise2").text("Result").delay(2000).queue(function(next){
             $(this).text("Test");
             next();
@@ -17,7 +17,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $("#puzzle3").click(function(){
+    $("#puzzle3").one("click", function(){
         $("#memorise3").text("Result").delay(2000).queue(function(next){
             $(this).text("Test");
             next();
@@ -26,7 +26,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $("#puzzle4").click(function(){
+    $("#puzzle4").one("click", function(){
         $("#memorise4").text("Result").delay(2000).queue(function(next){
             $(this).text("Test");
             next();
@@ -35,7 +35,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $("#puzzle5").click(function(){
+    $("#puzzle5").one("click", function(){
         $("#memorise5").text("Result").delay(2000).queue(function(next){
             $(this).text("Test");
             next();
