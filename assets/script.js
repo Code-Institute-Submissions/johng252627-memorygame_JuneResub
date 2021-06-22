@@ -1,6 +1,9 @@
 $(document).ready(function(){
     $("#puzzle1").click(function(){
-        $("#memorise1").text("Result");
+        $("#memorise1").text("Result").delay(2000).queue(function(next){
+            $(this).text("Test");
+            next();
+        });
     });
 });
 
