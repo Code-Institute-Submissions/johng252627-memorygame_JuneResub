@@ -51,3 +51,9 @@ $(document).ready(function(){
         });
     });
 });
+
+$(document).ready(function(){
+    $("#guess1a").click(function(){
+        $("#guess1a").removeClass("guess").addClass("guessWrong");
+    });
+});
