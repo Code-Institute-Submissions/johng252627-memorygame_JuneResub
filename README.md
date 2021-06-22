@@ -9,7 +9,7 @@ A simple and clean layout was decided upon in order to maintain the focus of the
 
 ### User Story
 As a user who wants to play a quick memory game:
-1. I want clear insrtuctions on how to play.
+1. I want clear instructions on how to play.
 2. I want a good layout without any distractions or unecessary inclusions.
 3. I want the game to get more difficult as it progresses.
 4. I want a way to play again when I get to the end.
@@ -43,3 +43,21 @@ These include:
 [CSS](https://www.w3.org/) For styling.
 [Bootstrap](https://getbootstrap.com/) For enhanced style and grid layout.
 [jQuery](https://jquery.com/) For javascript.
+
+## Testing
+[Validator](https://validator.w3.org/)
+Checked html and css code to make sure there were no errors.
+
+### Testing user Story
+1. Are there clear instructions on how to play?
+Yes, instructions are displayed prominently near the top of the page.
+2. Is the layout clear without any unecessary inclusions?
+Yes, there is a clear, linear layout with nothing included that does not pertain to the game.
+3. Does the game get progressively more difficult?
+Yes, as the user progresses through the levels, the difficulty increases.
+4. Is there a way to play again?
+Yes, at the end of the game there is a button that allows the user to play again, if they desire.
+
+The jQuery was tested by intentionally creating it in a way were it did not produce the desired result at first.
+To do this, it was first written to change the text, then to change the text and revert back after a delay.
+After this was successful, jQuery code was included to change the color of the guess divs.
