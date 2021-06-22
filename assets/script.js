@@ -1,3 +1,4 @@
+//For revealing the puzzles
 $(document).ready(function(){
     $("#puzzle1").one("click", function(){
         $("#memorise1").text("7263").delay(3000).queue(function(next){
@@ -52,6 +53,7 @@ $(document).ready(function(){
     });
 });
 
+//For changing the colors of the guess
 $(document).ready(function(){
     $("#guess1a").click(function(){
         $("#guess1a").removeClass("guess").addClass("guessWrong");
