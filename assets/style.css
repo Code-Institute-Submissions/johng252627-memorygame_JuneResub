@@ -1,10 +1,13 @@
+/* From Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
+/* Body */
 body {
     background-color: #fefedf;
     font-family: 'Kanit', sans-serif;
 }
 
+/* Nav/header */
 .navbar {
     background-color: #c493ff;
     color: #fefedf;
@@ -26,6 +29,7 @@ body {
     color: #4b4453;
 }
 
+/* H and p elements */
 h1 {
     font-size: 35px;
 }
@@ -38,6 +42,7 @@ p {
     font-size: 20px;
 }
 
+/* Welcome message */
 .welcome {
     margin: 0 auto;
     text-align: center;
@@ -52,6 +57,7 @@ p {
     color: #fefedf;
 }
 
+/* How to play instructions */
 .how-to-play {
     margin: 0 auto;
     padding: 8px;
@@ -64,6 +70,7 @@ p {
     color: #fefedf;
 }
 
+/* Styling for puzzle containing divs and puzzle divs */
 .game {
     margin: 0 auto;
     margin-top: 30px;
@@ -84,6 +91,7 @@ p {
     background-color: #c493ff;
 }
 
+/* Styling for guess divs, including classes to be changed in script.js */
 .guess {
     margin: 0 auto;
     width: 33.333%;
@@ -124,10 +132,12 @@ p {
     transform: scale(1.1);
 }
 
+/* Margin between end of last game div and play again button */
 .final {
     margin-bottom: 30px;
 }
 
+/* Styling for play again button and div containing it */
 .play {
     text-align: center;
 }
@@ -145,6 +155,7 @@ p {
     color: #008f7a;
 }
 
+/* Styling for footer */
 .footer {
     margin: 0 auto;
     margin-top: 30px;
