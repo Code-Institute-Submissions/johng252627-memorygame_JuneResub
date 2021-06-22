@@ -61,3 +61,18 @@ Yes, at the end of the game there is a button that allows the user to play again
 The jQuery was tested by intentionally creating it in a way were it did not produce the desired result at first.
 To do this, it was first written to change the text, then to change the text and revert back after a delay.
 After this was successful, jQuery code was included to change the color of the guess divs.
+
+## Deployment
+1. From github user account I chose the relevant repository.
+2. Choose the settings and navigate to github pages.
+3. From the "Source" dropdown select "Master".
+4. Click "Save" and the website will be deployed.
+
+To locally run the project open [this](https://github.com/johng252627/memorygame), clone the repository to your local device.
+
+## Credits
+### Content 
+I used customised versions of [Bootstrap](https://getbootstrap.com/) navbars and buttons.
+I took inspiration from [StackOverflow](https://stackoverflow.com/) to make sure the puzzles were revealed only on the first click, specifically from [here](https://stackoverflow.com/questions/12885660/how-to-make-a-jquery-click-event-fire-only-on-first-click/12885673).
+I also used StackOverflow to learn how to add a delay before the puzzle text changed from [here](https://stackoverflow.com/questions/2510115/jquery-can-i-call-delay-between-addclass-and-such).
+I used the [font](https://fonts.google.com/specimen/Kanit) Kanit from Google fonts.
