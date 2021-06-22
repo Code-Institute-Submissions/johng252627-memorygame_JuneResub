@@ -19,6 +19,7 @@ body {
     font-size: 40px;
     transition: .5s;
     text-shadow: 3px 3px #845ec2;
+    letter-spacing: 2px;
 }
 
 .logo:hover {
@@ -164,4 +165,5 @@ ul {
 .enjoy {
     font-size: 40px;
     text-shadow: 3px 3px #845ec2;
+    margin-top: 5px;
 }
