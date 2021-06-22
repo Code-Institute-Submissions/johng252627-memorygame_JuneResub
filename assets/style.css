@@ -64,10 +64,6 @@ p {
     color: #fefedf;
 }
 
-ul {
-    list-style-position: inside;
-}
-
 .game {
     margin: 0 auto;
     margin-top: 30px;
