@@ -99,6 +99,30 @@ ul {
     transition: .5s;
 }
 
+.guessWrong {
+    margin: 0 auto;
+    width: 33.333%;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #ff6f91;
+    transition: .5s;
+}
+
+.guessRight {
+    margin: 0 auto;
+    width: 33.333%;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #00c9a7;
+    transition: .5s;
+}
+
 .guess:hover {
     transform: scale(1.1);
 }
